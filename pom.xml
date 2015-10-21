@@ -1,14 +1,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<groupId>com.vesense.demobank</groupId>
 	<artifactId>demobank</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
+
 	<modules>
 		<module>demobank-hdfs</module>
+		<module>demobank-yarn</module>
 	</modules>
-	
+
+	<developers>
+		<developer>
+			<id>vesense</id>
+			<name>Wang Xin</name>
+			<email>best.wangxin@163.com</email>
+			<roles>
+				<role>Committer</role>
+			</roles>
+		</developer>
+	</developers>
+
 </project>
