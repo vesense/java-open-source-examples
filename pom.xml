@@ -10,6 +10,7 @@
 	<modules>
 		<module>demobank-hdfs</module>
 		<module>demobank-yarn</module>
+		<module>demobank-kafka</module>
 	</modules>
 
 	<developers>
