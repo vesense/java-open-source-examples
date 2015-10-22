@@ -23,8 +23,7 @@ AppMaster:
 ##Deploy
 	$ bin/hadoop fs -put demobank-yarn-0.0.1-SNAPSHOT-jar-with-dependencies.jar /apps/
 
-	$ bin/hadoop jar demobank-yarn-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.vesense.demobank.yarn.AppClient 2 
-hdfs:///apps/demobank-yarn-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+	$ bin/hadoop jar demobank-yarn-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.vesense.demobank.yarn.AppClient 2 hdfs:///apps/demobank-yarn-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 
 the first param is worker number, the second param is jar path.
 
