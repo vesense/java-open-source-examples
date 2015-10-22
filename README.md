@@ -7,6 +7,7 @@ All demos passed the test.
 * demobank-hdfs for Apache Hadoop HDFS
 * demobank-yarn for Apache Hadoop YARN
 * demobank-kafka for Apache Kafka
+* demobank-selenium for SeleniumHQ Selenium
 
 ##Contact
 Any question about demobank, please contact [Xin Wang](mailto:best.wangxin@163.com).
