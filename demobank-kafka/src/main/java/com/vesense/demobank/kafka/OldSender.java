@@ -10,28 +10,28 @@ import kafka.producer.ProducerConfig;
 
 public class OldSender implements Sender {
 
-	private Producer<String, String> producer;
-	private String topic;
+    private Producer<String, String> producer;
+    private String topic;
 
-	public OldSender(Properties props) {
-		Validate.notNull(props);
-		producer = new Producer<String, String>(new ProducerConfig(props));
-	}
+    public OldSender(Properties props) {
+        Validate.notNull(props);
+        producer = new Producer<String, String>(new ProducerConfig(props));
+    }
 
-	@Override
-	public void send(String msg) {
-		// specify record key
-		// producer.send(new KeyedMessage<String, String>(topic, key, value));
+    @Override
+    public void send(String msg) {
+        // specify record key
+        // producer.send(new KeyedMessage<String, String>(topic, key, value));
 
-		producer.send(new KeyedMessage<String, String>(topic, msg));
-	}
+        producer.send(new KeyedMessage<String, String>(topic, msg));
+    }
 
-	@Override
-	public void destroy() {
-		producer.close();
-	}
+    @Override
+    public void destroy() {
+        producer.close();
+    }
 
-	public void setTopic(String topic) {
-		this.topic = topic;
-	}
+    public void setTopic(String topic) {
+        this.topic = topic;
+    }
 }
