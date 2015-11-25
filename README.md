@@ -10,7 +10,7 @@ All demos passed the test.
 * demobank-selenium for SeleniumHQ Selenium
 
 ##Contact
-Any question about demobank, please contact [Xin Wang](mailto:best.wangxin@163.com).
+Any question about demobank, please contact [Xin Wang](mailto:data.xinwang@gmail.com).
 
 ##License
 http://www.apache.org/licenses/LICENSE-2.0
